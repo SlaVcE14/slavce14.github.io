@@ -449,6 +449,9 @@ body:after {
     #mail:hover {
         scale: 1;
     }
+    #contact_container{
+        justify-content: center;
+    }
 }
 @media only screen and (max-device-width: 480px){
     #home div {
