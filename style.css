@@ -243,6 +243,9 @@ body:after {
 
 
 }
+#projects {
+    height: 100vh;
+}
 .section:not(#home) > div,.section:not(#home) >h2 {
     opacity: 1;
     animation: c-animate 1s linear infinite;
