@@ -42,6 +42,9 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: both;
 }
+pre {
+    display:block; overflow: auto; word-wrap: normal
+}
 body:after {
     content: "";
     position: fixed;
