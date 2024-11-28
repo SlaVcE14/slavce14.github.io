@@ -45,6 +45,9 @@ body {
 pre {
     display:block; overflow: auto; word-wrap: normal
 }
+code {
+    overflow: visible;
+}
 body:after {
     content: "";
     position: fixed;
