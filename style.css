@@ -206,6 +206,9 @@ body:after {
     margin: auto;
     display: flex;
 }
+pre {
+    max-width: 900px;
+}
 .section > h2 {
     margin: 10px 30px;
     font-size: 30px;
@@ -443,6 +446,9 @@ body:after {
         min-width: 500px;
     }
 
+    pre {
+        max-width: 500px;
+    }
     #mail p {
         display: none;
     }
@@ -463,7 +469,9 @@ body:after {
     .section {
         min-width: 280px;
     }
-
+    pre {
+        max-width: 280px;
+    }
     #mail {
         background: none;
     }
