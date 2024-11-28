@@ -43,7 +43,10 @@ body {
     animation-fill-mode: both;
 }
 pre {
-    display:block; overflow: auto; word-wrap: normal
+    display:block;
+    overflow: auto;
+    word-wrap: normal;
+    overflow-y: hidden;
 }
 code {
     overflow: visible;
@@ -539,15 +542,27 @@ pre {
     }
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     width: 10px;
+    height: 10px;
     background: var(--nav-bg-color);
 }
+div > ::-webkit-scrollbar{
+    background: none;
+}
+
+
 
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 2px var(--gray-color);
-    margin-top: 60px;
     background: black;
+}
+html > ::-webkit-scrollbar-track {
+    margin-top: 60px;
+}
+
+div > ::-webkit-scrollbar-track {
+    border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -556,6 +571,17 @@ pre {
 
 }
 
+div > ::-webkit-scrollbar-thumb {
+    background: var(--nav-bg-color);
+    border-radius: 20px;
+
+}
+
 ::-webkit-scrollbar-thumb:hover{
     background: var(--nav-bg-color);
 }
+
+div > ::-webkit-scrollbar-thumb:hover{
+    background: var(--gray-color2);
+}
+
