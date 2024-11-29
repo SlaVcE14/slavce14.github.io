@@ -249,7 +249,7 @@ pre {
     animation-delay: calc(var(--scroll) * -1.5s);
 }
 
-#education, #skills, #projects,#versions {
+#education, #skills, #projects,#versions,#screenshots {
     flex-flow: column;
     min-height: 50vh;
 
@@ -268,7 +268,7 @@ pre {
     animation-fill-mode: both;
 }
 
-#contacts,#links {
+#contacts,#links, #screenshots {
     flex-flow: column;
 }
 
@@ -279,6 +279,25 @@ pre {
     justify-content: center;
 }
 #versions-container {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px 30px;
+}
+#screenshots img {
+    float: left;
+    max-height: 550px;
+    max-width: 100%;
+    object-fit: contain;
+    transition: .3s;
+}
+
+#screenshots img:hover {
+    scale: 1.03;
+}
+
+#screenshots-container {
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
