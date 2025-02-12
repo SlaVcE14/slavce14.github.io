@@ -9,7 +9,7 @@ if (noSplash){
 
 window.addEventListener("DOMContentLoaded", function () {
     console.log(document.referrer)
-    console.log(document.referrer.includes(location.hostname))
+    console.log(location.hostname)
     if (document.referrer && !document.referrer.includes(location.hostname)) {
         console.log("User came back from another site!");
     }
