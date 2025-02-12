@@ -7,10 +7,10 @@ if (noSplash){
     document.getElementById("logo1").style.visibility = "hidden";
 }
 
-window.addEventListener("popstate", function(event) {
-    console.log("Back button was pressed!");
-});
-
-window.addEventListener("beforeunload", function(event) {
-    console.log("User is leaving the page!");
+window.addEventListener("DOMContentLoaded", function () {
+    console.log(document.referrer)
+    console.log(document.referrer.includes(location.hostname))
+    if (document.referrer && !document.referrer.includes(location.hostname)) {
+        console.log("User came back from another site!");
+    }
 });
