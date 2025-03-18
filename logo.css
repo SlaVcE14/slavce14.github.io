@@ -171,18 +171,18 @@
 @keyframes loading5 {
     0%,65%   {
         width: 0;
-        left: 114px;
+        left: 115px;
         opacity: 0;
     }
     65.5% {
         opacity: 1;
     }
     90% {
-        width: 114px;
+        width: 115px;
         left: 0;
     }
     100% {
-        width: 114px;
+        width: 115px;
         left: 0;
     }
 }
@@ -227,11 +227,11 @@
     }
 
     95% {
-        height: 110px;
+        height: 111px;
         top: 41px;
     }
     100% {
-        height: 110px;
+        height: 111px;
     }
 }
 
