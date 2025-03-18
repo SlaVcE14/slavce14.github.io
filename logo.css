@@ -10,7 +10,7 @@
 
 }
 .l1, .l2,.l3,.l4,.l5,.l6,.l7,.l8 {
-    border: 2px white solid;
+    background: white;
 }
 
 .l1 {
@@ -19,39 +19,35 @@
     top:0;
     width: 258px;
     height: 39px;
-    background: black;
     animation-name: loading1;
     animation-duration: 2s;
 }
 .l2 {
     position: absolute;
     left: 27px;
-    top:41px;
+    top: 39px;
     width: 43px;
     height: 70px;
-    border-top: black;
-    background: black;
     animation-name: loading2;
     animation-duration: 2s;
 }
+
 .l3 {
     position: absolute;
-    left: 72px;
+    left: 70px;
     top: 65px;
     width: 92px;
     height: 44px;
     border-left: none;
-    background: black;
     animation-name: loading3;
     animation-duration: 2s;
 }
 .l4 {
     position: absolute;
     left: 114px;
-    top: 111px;
+    top: 109px;
     width: 48px;
     height: 80px;
-    background: black;
     border-top: none;
     animation-name: loading4;
     animation-duration: 2s;
@@ -63,7 +59,6 @@
     width: 114px;
     height: 43px;
     border-right: none;
-    background: black;
     animation-name: loading5;
     animation-duration: 2s;
 }
@@ -73,17 +68,15 @@
     top: 113px;
     width: 40px;
     height: 76px;
-    background: black;
     animation-name: loading6;
     animation-duration: 2s;
 }
 .l7 {
     position: absolute;
-    left: 208px;
+    left: 206px;
     top: 151px;
     width: 79px;
     height: 38px;
-    background: black;
     border-left: none;
     animation-name: loading7;
     animation-duration: 2s;
@@ -94,7 +87,6 @@
     top: 41px;
     width: 50px;
     height: 110px;
-    background: black;
     border-bottom: none;
     animation-name: loading8;
     animation-duration: 2s;
@@ -171,14 +163,14 @@
 @keyframes loading5 {
     0%,65%   {
         width: 0;
-        left: 114px;
+        left: 115px;
         opacity: 0;
     }
     65.5% {
         opacity: 1;
     }
     90% {
-        width: 114px;
+        width: 115px;
         left: 0;
     }
     100% {
@@ -220,7 +212,7 @@
     0%,70%   {
         height: 0;
         opacity: 0;
-        top: 151px;
+        top: 153px;
     }
     70.5% {
         opacity: 1;
@@ -228,10 +220,11 @@
 
     95% {
         height: 110px;
-        top: 41px;
+        top: 42px;
     }
     100% {
         height: 110px;
+        top: 41px;
     }
 }
 
