@@ -507,6 +507,18 @@ pre {
         scale: 1;
     }
 }
+.link {
+    margin-top: 60px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color: #252525;
+    transition: .3s;
+}
+
+.link:hover {
+
+    background: #0060f4;
+}
 
 .corner {
     border-radius: 20px;
