@@ -1,0 +1,22 @@
+[
+  {
+    "title" : "v1.6.1",
+    "changelog": "Bug fixes\n- Fix Location not detected as enabled on some devices\n- Fix statusbar color on device light mode\n\nUpdate\n- App Widget\n- Update Crash Logs Activity\n- Update About Activity",
+    "file": "Weather_1.6.1.apk"
+  },
+  {
+    "title" : "v1.6",
+    "changelog": "Bug fixes\n- Fix Weather transition\n\nUpdate\n- Added null check for data\n- Update check for update\n\nUI Update\n- Updated Alerts layout\n- Update icons\n- Edge-to-edge layout\n\nNew\n- Swipe actions for Hourly and Daily Activity\n- Android 15 support\n- Weather Summary\n- Predictive back animation for Android 14 and up",
+    "file": "Weather_1.6.apk"
+  },
+  {
+    "title" : "v1.5.3",
+    "changelog": "- Fixed crash",
+    "file" : "Weather_1.5.3.apk"
+  },
+  {
+    "title" : "v1.5.2",
+    "changelog": "- UI update\n- API update\n- fix incorrect time display\n- App now checks for update",
+    "file" : "Weather_1.5.2.apk"
+  }
+]
