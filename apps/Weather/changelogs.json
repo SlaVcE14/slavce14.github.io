@@ -1,5 +1,10 @@
 [
   {
+    "title" : "v1.6.2",
+    "changelog": "Update\n- UI update\n\nNew\n- Added TV support\n- Added Release Notes in About page",
+    "file": "Weather_1.6.2.apk"
+  },
+  {
     "title" : "v1.6.1",
     "changelog": "Bug fixes\n- Fix Location not detected as enabled on some devices\n- Fix statusbar color on device light mode\n\nUpdate\n- App Widget\n- Update Crash Logs Activity\n- Update About Activity",
     "file": "Weather_1.6.1.apk"
