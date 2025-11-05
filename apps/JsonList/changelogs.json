@@ -1,5 +1,10 @@
 [
   {
+    "title" : "v1.8",
+    "changelog": "Bugfix\n- correct handling for escape sequences (\\n, \\t, \\r...) \n\nNew\n- Resizable Split View\n- Search\n- Release Notes\n\nUpdates\n- UI Update\n  - Tool menu\n  - Progress bar\n  - Save Button position\n- Update edit mode\n  - Now you can change all key names that has same name in a list at once\n- Update animations",
+    "file" : "JsonList_1.8.apk"
+  },
+  {
     "title" : "v1.7",
     "changelog": "Bugfix\n- Fix shortcut for opening JSON from file crashing\n\nNew features\n- Added shortcut for opening JSON from url\n- Added editing support for JSON and exporting to file",
     "file" : "JsonList_1.7.apk"
