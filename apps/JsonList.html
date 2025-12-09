@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Json List</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="icon" type="image/x-icon" href="../img/logo2.png">
+    <link rel="icon" type="image/x-icon" href="../img/logo2.3.png">
     <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <meta property="og:title" content="Json List">/
     <meta property="og:image" content="https://slavce14.github.io/apps/JsonList/banner.png">
@@ -14,6 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://slavce14.github.io/apps/JsonList">
     <meta property="og:description" content="previewing JSON files in a user-friendly list format">
+    <meta name="theme-color" content="#0060f4"/>
 </head>
 <body>
 <div id="nav">
@@ -43,6 +44,7 @@
         <li><a href="#screenshots">Screenshots</a></li>
         <li><a href="#versions">Versions</a></li>
         <li><a href="#contacts">Contact</a></li>
+        <li><a href="JsonList/privacy_policy.html">Privacy Policy</a></li>
     </ul>
 
 
@@ -55,6 +57,9 @@
             <h1>Json List</h1>
             <h3>Material You Android app for previewing JSON from a file or URL in a user-friendly list format</h3>
         </div>
+        <div class="link" >
+            <a href="https://github.com/SlaVcE14/jsonlist-Desktop">Desktop app coming soon...</a>
+        </div>
     </div>
     <div id="links" class="section">
         <h2>Links</h2>
@@ -62,6 +67,10 @@
             <a href="https://github.com/SlaVcE14/jsonlist" class="corner" target="_blank">
                 <img src="../img/icons/github2.png" alt="GitHub">
                 <h4>GitHib</h4>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.sjapps.jsonlist" class="corner" target="_blank">
+                <img src="../img/icons/play-logo.png" alt="GitHub">
+                <h4>Play Store</h4>
             </a>
             <a href="https://slavce14.github.io/redirect?link=jsonlist-fdroid" class="corner" target="_blank">
                 <img src="../img/icons/F-Droid.png" alt="GitHub">
@@ -96,82 +105,7 @@
     </div>
     <div id="versions" class="section">
         <h2>Versions</h2>
-        <div id="versions-container">
-            <div class="corner">
-                <h3>v1.6.1</h3>
-                <pre><span style="font-size: 17px">Changelog:</span>
-<code>
-New features
-- Added support for loading JSON from a URL
-- Clicking on the path now displays the full path
-
-Updates
-- Update UI
-- Update raw JSON view
-  - Enhanced performance for raw JSON rendering and syntax highlighting
-  - Added pinch-to-zoom support
-- Android 15 support
-  - Implemented edge-to-edge support
-</code>
-</pre>
-
-                <a href="./JsonList/versions/JsonList_1.6.1.apk">download</a>
-            </div>
-            <div class="corner">
-                <h3>v1.5</h3>
-                <pre><span style="font-size: 17px">Changelog:</span>
-<code>
-Bugfix
-- fix raw JSON view not displaying correct data
-- Fix null fields not showing in raw JSON view
-
-New features
-- Add Settings page
-- Expand JSON Raw View
-- Added Filter
-- Added Syntax Highlighter for raw JSON
-
-Updates
-- Update UI
-  - update drag and drop UI
-- Update about page
-  - Add Feedback button
-</code>
-</pre>
-
-                <a href="./JsonList/versions/JsonList_1.5.apk">download</a>
-            </div>
-            <div class="corner">
-                <h3>v1.4</h3>
-                <pre><span style="font-size: 17px">Changelog:</span>
-<code>
-Bugfix
-- fix onBackPressed crash when adapter is null
-- fix path bug
-- Fix support for JSON Array
-- fix MIME types
-
-New features
-- Added autolink
-- Added themed icon
-- Added splash screen
-- Added Drag and Drop feature
-- Highlight previous position
-- Added Crash logs page
-- Added warning dialog before sharing logs
-- Added Split view
-
-Updates
-- update About page
-- Update loading file
-- UI update
-  - add start screen animation
-  - loading animation update
-  - Snackbar update
-</code></pre>
-                <a href="./JsonList/versions/JsonList_1.4.apk">download</a>
-            </div>
-        </div>
+        <div id="versions-container" srcData="JsonList"></div>
 
     </div>
     <div id="contacts" class="section">
@@ -198,6 +132,7 @@ Updates
     </div>
 </div>
 <script src="../script.js"></script>
+<script src="displayChangelogs.js"></script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2YS8LF47VL"></script>
