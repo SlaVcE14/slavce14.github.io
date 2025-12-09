@@ -2,14 +2,14 @@
 
 #logo {
     position: absolute;
-    width: 285px;
+    width: 503px;
     height: 189px;
     animation-name: hide-logo;
     animation-duration: 3s;
     opacity: 0;
 
 }
-.l1, .l2,.l3,.l4,.l5,.l6,.l7,.l8 {
+.l1, .l2,.l3,.l4,.l5,.l6,.l7,.l8,.l9,.l10,.l11,.l12,.l13 {
     background: white;
 }
 
@@ -17,7 +17,7 @@
     position: absolute;
     left: 27px;
     top:0;
-    width: 258px;
+    width: 256px;
     height: 39px;
     animation-name: loading1;
     animation-duration: 2s;
@@ -25,18 +25,18 @@
 .l2 {
     position: absolute;
     left: 27px;
-    top: 39px;
+    top: 38px;
     width: 43px;
-    height: 70px;
+    height: 71px;
     animation-name: loading2;
     animation-duration: 2s;
 }
 
 .l3 {
     position: absolute;
-    left: 70px;
+    left: 69px;
     top: 65px;
-    width: 92px;
+    width: 93px;
     height: 44px;
     border-left: none;
     animation-name: loading3;
@@ -45,9 +45,9 @@
 .l4 {
     position: absolute;
     left: 114px;
-    top: 109px;
+    top: 108px;
     width: 48px;
-    height: 80px;
+    height: 81px;
     border-top: none;
     animation-name: loading4;
     animation-duration: 2s;
@@ -56,7 +56,7 @@
     position: absolute;
     left: 0;
     top: 146px;
-    width: 114px;
+    width: 115px;
     height: 43px;
     border-right: none;
     animation-name: loading5;
@@ -64,7 +64,7 @@
 }
 .l6 {
     position: absolute;
-    left: 166px;
+    left: 165px;
     top: 113px;
     width: 40px;
     height: 76px;
@@ -73,7 +73,7 @@
 }
 .l7 {
     position: absolute;
-    left: 206px;
+    left: 204px;
     top: 151px;
     width: 79px;
     height: 38px;
@@ -83,16 +83,74 @@
 }
 .l8 {
     position: absolute;
-    left: 235px;
+    left: 233px;
     top: 41px;
     width: 50px;
-    height: 110px;
+    height: 111px;
     border-bottom: none;
     animation-name: loading8;
     animation-duration: 2s;
 }
-
-
+.l9 {
+    position: absolute;
+    left: 289px;
+    top: 0;
+    width: 90px;
+    height: 40px;
+    border-left: none;
+    animation-name: loading9;
+    animation-duration: 2s;
+}
+.l10 {
+    position: absolute;
+    left: 331px;
+    top: 39px;
+    width: 48px;
+    height: 150px;
+    border-left: none;
+    animation-name: loading10;
+    animation-duration: 2s;
+}
+.l11 {
+    position: absolute;
+    left: 385px;
+    top: 0;
+    width: 48px;
+    height: 80px;
+    border-left: none;
+    animation-name: loading11;
+    animation-duration: 2s;
+}
+.l12 {
+    position: absolute;
+    left: 385px;
+    top: 79px;
+    width: 70px;
+    height: 52px;
+    border-left: none;
+    animation-name: loading8;
+    animation-duration: 2s;
+}
+.l12 {
+    position: absolute;
+    left: 385px;
+    top: 79px;
+    width: 70px;
+    height: 52px;
+    border-left: none;
+    animation-name: loading12;
+    animation-duration: 2s;
+}
+.l13 {
+    position: absolute;
+    left: 445px;
+    top: 0;
+    width: 48px;
+    height: 189px;
+    border-left: none;
+    animation-name: loading13;
+    animation-duration: 2s;
+}
 
 
 @keyframes loading1 {
@@ -104,10 +162,10 @@
         opacity: 1;
     }
     80% {
-        width: 258px;
+        width: 256px;
     }
     100% {
-        width: 258px;
+        width: 256px;
     }
 
 }
@@ -124,10 +182,10 @@
         height: 0;
     }
     45% {
-        height: 70px;
+        height: 71px;
     }
     100% {
-        height: 70px;
+        height: 71px;
     }
 }
 @keyframes loading3 {
@@ -139,10 +197,10 @@
         opacity: 1;
     }
     55% {
-        width: 92px;
+        width: 93px;
     }
     100% {
-        width: 92px;
+        width: 93px;
     }
 }
 @keyframes loading4 {
@@ -154,10 +212,10 @@
         opacity: 1;
     }
     65% {
-        height: 80px;
+        height: 81px;
     }
     100% {
-        height: 80px;
+        height: 81px;
     }
 }
 @keyframes loading5 {
@@ -219,21 +277,147 @@
     }
 
     95% {
-        height: 110px;
+        height: 111px;
         top: 42px;
     }
     100% {
-        height: 110px;
+        height: 111px;
         top: 41px;
+    }
+}
+
+@keyframes loading9 {
+    0%,70%   {
+        width: 0;
+        opacity: 0;
+        left: 379px;
+    }
+    70.5% {
+        opacity: 1;
+    }
+
+    95% {
+        width: 90px;
+        left: 289px;
+    }
+    100% {
+        width: 90px;
+        left: 289px;
+    }
+}
+@keyframes loading10 {
+    0%,40%   {
+        height: 0;
+        opacity: 0;
+        top: 189px;
+    }
+    50.5% {
+        opacity: 1;
+    }
+
+    70% {
+        height: 150px;
+        top: 39px;
+    }
+    100% {
+        height: 150px;
+        top: 39px;
+    }
+}
+
+@keyframes loading11 {
+    0%,70%   {
+        height: 0;
+        opacity: 0;
+        top: 80px;
+    }
+    70.5% {
+        opacity: 1;
+    }
+
+    90% {
+        height: 80px;
+        top: 0;
+    }
+    100% {
+        height: 80px;
+        top: 0;
+    }
+}
+
+@keyframes loading12 {
+    0%,65%   {
+        width: 0;
+        opacity: 0;
+        left: 455px;
+    }
+    65.5% {
+        opacity: 1;
+    }
+
+    90% {
+        width: 70px;
+        left: 385px;
+    }
+    100% {
+        width: 70px;
+        left: 385px;
+    }
+}
+
+@keyframes loading13 {
+    0%,50%   {
+        height: 0;
+        opacity: 0;
+        top: 189px;
+    }
+    50.5% {
+        opacity: 1;
+    }
+
+    90% {
+        height: 189px;
+        top: 0;
+    }
+    100% {
+        height: 189px;
+        top: 0;
     }
 }
 
 @keyframes hide-logo {
     0%,80% {
         opacity: 1;
+        width: 285px;
+    }
+
+    80%{
+        width: 503px;
     }
 
     100% {
+        width: 503px;
         opacity: 0;
+    }
+}
+
+@media only screen and (max-device-width: 480px){
+    #logo{
+        scale: 0.7;
+    }
+    @keyframes hide-logo {
+        0%,80% {
+            opacity: 1;
+            scale: 0.7;
+        }
+
+        80%{
+            scale: 0.5;
+        }
+
+        100% {
+            opacity: 0;
+            scale: 0.5;
+        }
     }
 }
