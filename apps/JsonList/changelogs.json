@@ -1,7 +1,7 @@
 [
   {
     "title" : "v1.9",
-    "changelog": "Bugfix\n- Fix bug when saving and overwriting file produces invalid JSON\n- Fix bug when large data tries to display in row JSON View  \n\nOptimization\n- Working with large data is more faster\n\nNew\n- Added toggle for scroll animation in settings\n\nUpdates\n- Update feedback dialog\n- Handle numbers with leading zeros as strings\n- Improve search UX and UI feedback",
+    "changelog": "Fixed an issue where overwriting a file could result in invalid JSON\n- Fixed bug when large data tries to display in raw JSON View  \n\nOptimization\n- Working with large data is more faster\n\nNew\n- Added toggle for scroll animation in settings\n\nUpdates\n- Update feedback dialog\n- Handle numbers with leading zeros as strings\n- Improve search UX and UI feedback",
     "file" : "JsonList_1.9.apk"
   },
   {
