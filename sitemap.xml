@@ -5,24 +5,4 @@
         <lastmod>2025-11-16T15:00:10+00:00</lastmod>
         <priority>1.00</priority>
     </url>
-    <url>
-        <loc>https://sj14apps.com/apps/Weather</loc>
-        <lastmod>2025-11-16T15:00:10+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://sj14apps.com/apps/JsonList</loc>
-        <lastmod>2025-11-16T15:00:10+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://sj14apps.com/apps/PasswordManager</loc>
-        <lastmod>2025-11-16T15:00:10+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://sj14apps.com/apps/JsonList/privacy_policy.html</loc>
-        <lastmod>2025-11-16T15:00:10+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
 </urlset>

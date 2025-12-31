@@ -1,7 +1,0 @@
-[
-  {
-    "title" : "1.4",
-    "changelog": "Bugfix\n- fix camera working in background\n\nUpdates\n- add monochrome icon\n- UI update\n > icons buttons update\n > update Switch\n > update about page\n- add some Haptic Feedback\n- secure copy password\n- hide secure screen form screenshotting and screen cast\n- add edge to edge support\n",
-    "file": "PasswordManager-1.4.apk"
-  }
-]

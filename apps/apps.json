@@ -1,32 +1,8 @@
 [
   {
-    "name": "SJ-Dialog",
-    "type": "Android library",
-    "image": "https://repository-images.githubusercontent.com/473367072/2dbc4ac2-711c-48e5-92f4-c55e083e81ac",
-    "link": "https://redirect.sj14apps.com/sj-dialog-github"
-  },
-  {
-    "name": "Weather",
-    "type": "Android App",
-    "image": "https://sj14apps.com/img/projects/weather.png",
-    "link": "https://sj14apps.com/apps/Weather"
-  },
-  {
-    "name": "Json List",
-    "type": "Android App",
-    "image": "https://sj14apps.com/img/projects/jsonlist.png",
-    "link": "https://sj14apps.com/apps/JsonList"
-  },
-  {
-    "name": "Password Manager",
-    "type": "Android App",
-    "image": "https://sj14apps.com/img/projects/pm.png",
-    "link": "https://sj14apps.com/apps/PasswordManager"
-  },
-  {
-    "name": "Firework-android",
-    "type": "Android library",
-    "image": "https://sj14apps.com/img/projects/firework.jpg",
-    "link": "https://redirect.sj14apps.com/firework-android-github"
+    "name": "Finki Escape",
+    "type": "Windows forms game",
+    "image": "./img/projects/finkiescape.png",
+    "link": "https://github.com/SlaVcE14/FinkiEscape"
   }
 ]

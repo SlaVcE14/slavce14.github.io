@@ -1,3 +1,4 @@
+let sj14appsProjectsContainer = document.getElementById('projects_sj14apps_container')
 let projectsContainer = document.getElementById('projects_container')
 
 function loadJSON(filePath) {
@@ -13,27 +14,17 @@ function loadJSON(filePath) {
     }
 }
 
-let data = loadJSON('/apps/apps.json');
-data.forEach(a => {
-
-    let prefix = "https://sj14apps.com/"
-    let isExternal = !a.link.startsWith(prefix)
-
-
-    let link = !isExternal ? "./" + a.link.slice(prefix.length) : a.link;
-    let image = !isExternal ? "./" + a.image.slice(prefix.length) : a.image;
-
+function createCard(a){
 
     let app = document.createElement('a')
-    app.href = link;
-    if (isExternal) {
-        app.target = '_blank';
-    }
+    app.href = a.link;
+    app.target = '_blank';
+
     let appContainer = document.createElement('div')
     appContainer.classList.add('corner')
     let img = document.createElement('img')
     img.classList.add('corner-top')
-    img.src = image
+    img.src = a.image
     img.alt = a.name
     let title = document.createElement('h3')
     title.textContent = a.name
@@ -44,7 +35,18 @@ data.forEach(a => {
     appContainer.appendChild(title)
     appContainer.appendChild(subTitle)
     app.appendChild(appContainer)
+    return app
+}
 
+let data2 = loadJSON('./apps/apps.json');
+data2.forEach(a => {
+    let app = createCard(a)
+    console.log(app)
     projectsContainer.appendChild(app)
+})
 
+let data = loadJSON('https://sj14apps.com/apps/apps.json');
+data.forEach(a => {
+    let app = createCard(a)
+    sj14appsProjectsContainer.appendChild(app)
 })
