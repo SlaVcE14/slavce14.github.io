@@ -38,14 +38,13 @@ function createCard(a){
     return app
 }
 
-let data2 = loadJSON('./apps/apps.json');
+let data2 = loadJSON('./projects.json');
 data2.forEach(a => {
     let app = createCard(a)
-    console.log(app)
     projectsContainer.appendChild(app)
 })
 
-let data = loadJSON('https://sj14apps.com/apps/apps.json');
+let data = loadJSON('https://sj14apps.com/projects.json');
 data.forEach(a => {
     let app = createCard(a)
     sj14appsProjectsContainer.appendChild(app)
