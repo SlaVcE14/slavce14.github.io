@@ -3,6 +3,7 @@
     --gray-color: #151515;// #232323;
     --gray-color2: #252525;
     --scroll: 0;
+    --accent: 216;
 
 }
 @font-face {
@@ -419,7 +420,16 @@ pre {
 .projects_container a > div:hover  {
     cursor: pointer;
     scale: 1.05;
+    background: hsl(var(--accent) 65%, 10%);
 }
+.projects_container a > div:hover h3  {
+    color: hsl(var(--accent), 100%, 90%);
+}
+
+.projects_container a > div:hover h4  {
+    color: hsl(var(--accent), 90%, 75%);
+}
+
 
 .projects_container a div h3 {
     margin: 5px 15px;

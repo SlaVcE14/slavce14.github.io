@@ -31,6 +31,8 @@ function createCard(a){
     let subTitle = document.createElement('h4')
     subTitle.textContent = a.type
 
+    if (a.accentColor)
+        appContainer.style.setProperty("--accent", a.accentColor);
     appContainer.appendChild(img)
     appContainer.appendChild(title)
     appContainer.appendChild(subTitle)

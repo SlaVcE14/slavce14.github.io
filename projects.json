@@ -3,6 +3,7 @@
     "name": "Finki Escape",
     "type": "Windows forms game",
     "image": "./img/projects/finkiescape.png",
-    "link": "https://github.com/SlaVcE14/FinkiEscape"
+    "link": "https://github.com/SlaVcE14/FinkiEscape",
+    "accentColor": 180
   }
 ]
