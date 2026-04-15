@@ -12,37 +12,17 @@
     <meta name="theme-color" content="#0064ff"/>
     <meta name="google-site-verification" content="oO5kxLwZb3jPSbs-HEURHZr2hbkCq_GcGTITCJHdB9g" />
 </head>
-<body>
-<div id="nav">
-    <div id="logo1">
-        <div id="logo">
-            <div class="l1"></div>
-            <div class="l2"></div>
-            <div class="l3"></div>
-            <div class="l4"></div>
-            <div class="l5"></div>
-            <div class="l6"></div>
-            <div class="l7"></div>
-            <div class="l8"></div>
+<script>
+    const navList= [
+        { text: "Home", href: "#home" },
+        { text: "Skills", href: "#skills" },
+        { text: "Projects", href: "#projects" },
+        { text: "Contact", href: "#contacts" }
+    ]
+</script>
 
-
-        </div>
-    </div>
-    <img src="img/logo.png" alt="logo">
-    <div id="nav_btn" onclick="showNav()">
-
-    </div>
-    <ul id="nav_ul">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contacts">Contact</a></li>
-
-    </ul>
-
-
-
-</div>
+<body data-page="home">
+<div id="nav"></div>
 <div id="main">
 
 
@@ -119,33 +99,15 @@
         </div>
 
     </div>
-    <div id="contacts" class="section">
-        <h2>Contacts</h2>
-        <div id="contact_container" class="corner">
-            <a href="https://github.com/SlaVcE14" target="_blank">
-                <img src="img/icons/github2.png" alt="GitHub">
-            </a>
-            <a href="https://twitter.com/SlaVcEJ14" target="_blank">
-                <img src="img/icons/x.png" alt="Twitter">
-            </a>
-<!--            <a href="https://www.linkedin.com/in/slavce-joseski/" target="_blank">-->
-<!--                <img src="img/icons/linkedIn.png" alt="LinkedIn">-->
-<!--            </a>-->
-            <a id="mail" href="mailto: slavce@sj14apps.com">
-                <img src="img/icons/mail.png" alt="Mail">
-                <p>slavce@sj14apps.com</p>
-            </a>
-        </div>
-    </div>
+    <div id="contacts" class="section"></div>
 
-    <div id="copy">
-        &copy; 2026 SlaVcE14
-    </div>
+    <footer id="footer"></footer>
 
 
 </div>
+<script src="js/loadTemplates.js"></script>
 <script src="js/script.js"></script>
-<script src="js/scriptHome.js"></script>
+<!--<script src="js/scriptHome.js"></script>-->
 <script src="js/displayProjects.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2RQBXMX0YP"></script>
