@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSP Now</title>
+    <link rel="stylesheet" href="../css/style.css">
+<!--    <link rel="icon" type="image/x-icon" href="/icon.png">-->
+    <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="theme-color" content="#0060f4"/>
+</head>
+<body>
+<script>
+    const pageName = "JSPNow"
+    const projectName = "JSP Now"
+
+    const navList= [
+        { text: "Home", href: "../?noSplash" },
+        { text: "Top", href: "#home" },
+        { text: "Versions", href: "#versions" },
+        { text: "Contact", href: "#contacts" }
+    ]
+</script>
+<div id="nav"></div>
+<div id="bg">
+    <div class="blobs">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<div id="main">
+    <div id="home" class="section">
+        <div>
+<!--            <img src="PasswordManager/icon.png" width="130" height="130" class="corner">-->
+            <h1>JSP Now</h1>
+            <h3>A better way for tracking JSP</h3>
+        </div>
+    </div>
+    <div id="versions" class="section">
+        <h2>Versions</h2>
+        <div id="versions-container"></div>
+
+    </div>
+    <div id="contacts" class="section"></div>
+
+    <footer id="footer"></footer>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/loadTemplates.js"></script>
+<!--<script src="/js/updateColors.js"></script>-->
+<script src="/js/displayChangelogs.js"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2YS8LF47VL"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2YS8LF47VL');
+</script>
+</body>
+</html>
