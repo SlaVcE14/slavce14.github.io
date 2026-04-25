@@ -16,15 +16,25 @@ function loadJSON(filePath) {
 
 function createCard(a){
 
+    let prefix = "https://slavce.sj14apps.com/"
+    let isExternal = !a.link.startsWith(prefix)
+
+
+    let link = !isExternal ? "./" + a.link.slice(prefix.length) : a.link;
+    let image = a.image.startsWith(prefix) ? "./" + a.image.slice(prefix.length) : a.image;
+
+
     let app = document.createElement('a')
-    app.href = a.link;
-    app.target = '_blank';
+    app.href = link;
+    if (isExternal) {
+        app.target = '_blank';
+    }
 
     let appContainer = document.createElement('div')
     appContainer.classList.add('corner')
     let img = document.createElement('img')
     img.classList.add('corner-top')
-    img.src = a.image
+    img.src = image
     img.alt = a.name
     let title = document.createElement('h3')
     title.textContent = a.name
