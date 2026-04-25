@@ -5,5 +5,12 @@
     "image": "./img/projects/finkiescape.png",
     "link": "https://github.com/SlaVcE14/FinkiEscape",
     "accentColor": 180
+  },
+  {
+    "name": "JSP Now",
+    "type": "Android app",
+    "image": "./img/projects/jspnow.png",
+    "link": "/apps/JSPNow",
+    "accentColor": 1
   }
 ]
