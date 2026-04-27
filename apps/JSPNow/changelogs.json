@@ -1,5 +1,11 @@
 [
   {
+    "title": "v1.1",
+    "changelog": "New\n- Theme customization (change theme and map icon colors)\n- Add favorite bus stops or lines\n- App language switcher\n\nUpdates \u0026 Improvements\n- Improved bus status handling\n- Better focus on selected stop on the map\n\nUI Updates\n- Improved focused stop icon\n- Arrival list now displays seconds\n- Auto-updating arrival list\n\nLive Bus Tracking Enhancements\n- Displays delay\n- Shows next stop",
+    "file": "Bus_Now_1.1.apk",
+    "timestamp": 1777328611284
+  },
+  {
     "title": "v1.0",
     "changelog": "First release",
     "file": "JSP_Now_1.0.apk",
