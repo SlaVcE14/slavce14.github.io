@@ -1,5 +1,11 @@
 [
   {
+    "title": "v1.3",
+    "changelog": "Bugfix\n- Fixed some bus line missing from bus arrival list\n- Fixed bus line was not connected to route \n- Fixed bus arrival list displaying wrong data\n- Fixed line tracking is not canceled when stop is selected form a list\n\nNew\n- Added bus route schedule\n- Dynamic colors toggle\n- Added About page\n \u003e Release Notes\n \u003e Feedback button\n\nUI Update\n- Color update\n- Buttons update\n",
+    "file": "Bus_Now_1.3.apk",
+    "timestamp": 1785350365010
+  },
+  {
     "title": "v1.2",
     "changelog": "Updates \u0026 Improvements\n- Show direction for the route\n- UI Updates\n- Live Bus Tracking Enhancements\n \u003e Displays bus details in the top card\n \u003e Animate top card",
     "file": "Bus_Now_1.2.apk",
