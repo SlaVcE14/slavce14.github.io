@@ -1,10 +1,9 @@
 :root {
-    --nav-bg-color : #0064ff;
-    --gray-color: #151515;// #232323;
-    --gray-color2: #252525;
     --scroll: 0;
     --accent: 216;
-
+    --nav-bg-color : hsl(var(--accent), 100%, 50%);
+    --gray-color: hsl(var(--accent), 30%, 10%);
+    --gray-color2: hsl(var(--accent), 30%, 15%);
 }
 @font-face {
     font-family: KanitRegular;
@@ -33,7 +32,8 @@ html, body {
 body {
     display: flex;
     flex-flow: column;
-    background: url("../img/bg.jpg") center, black;
+    background: url("../img/bg.png") center, hsl(var(--accent), 60%, 25%);
+    background-blend-mode: multiply;
     background-size: 100% auto;
 
     animation: scale 1s linear infinite;
@@ -241,7 +241,7 @@ pre {
 #home h3 {
     margin-top: 5px;
     font-size: 30px;
-    color: #cfcfcf;
+    color: hsl(var(--accent), 100%, 90%);
 }
 
 
@@ -364,6 +364,18 @@ pre {
 }
 #versions-container div > h3 {
     margin: 5px;
+}
+
+#versions-container div:hover {
+    background: hsl(var(--accent), 65%, 10%);
+}
+
+#versions-container div:hover > h3 {
+    color: hsl(var(--accent), 100%, 90%);
+}
+
+#versions-container div:hover > pre code {
+    color: hsl(var(--accent), 100%, 80%);
 }
 
 #versions-container div > a {
