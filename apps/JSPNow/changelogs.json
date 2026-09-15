@@ -1,5 +1,11 @@
 [
   {
+    "title": "v1.4.2",
+    "changelog": "Major bugfixes",
+    "file": "Bus_Now_1.4.2.apk",
+    "timestamp": 1789498730556
+  },
+  {
     "title": "v1.4",
     "changelog": "New\n- JSP Announcements\n \u003e View official JSP announcements in the app\n\nUpdates\n- Improved Live Bus Tracking\n \u003e Fetch data from multiple sources to prevent outages if one source is unavailable\n- UI Updates\n \u003e Animations and icons update\n",
     "file": "Bus_Now_1.4.apk",
