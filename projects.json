@@ -12,5 +12,12 @@
     "image": "./img/projects/jspnow.png",
     "link": "https://slavce.sj14apps.com/apps/JSPNow",
     "accentColor": 1
+  },
+  {
+    "name": "Robot Arm Controller",
+    "type": "Android app / Arduino",
+    "image": "./img/projects/robotArmController.png",
+    "link": "https://github.com/SlaVcE14/RobotArmController",
+    "accentColor": 227
   }
 ]
