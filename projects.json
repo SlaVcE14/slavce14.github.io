@@ -19,5 +19,12 @@
     "image": "./img/projects/robotArmController.png",
     "link": "https://github.com/SlaVcE14/RobotArmController",
     "accentColor": 227
+  },
+  {
+    "name": "BLECtrl",
+    "type": "Android Library",
+    "image": "./img/projects/BLECtrl.png",
+    "link": "https://github.com/SlaVcE14/BLECtrl",
+    "accentColor": 227
   }
 ]
