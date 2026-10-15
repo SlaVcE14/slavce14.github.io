@@ -2,37 +2,31 @@
   {
     "title": "v1.4.2",
     "changelog": "Major bugfixes",
-    "file": "Bus_Now_1.4.2.apk",
     "timestamp": 1789498730556
   },
   {
     "title": "v1.4",
     "changelog": "New\n- JSP Announcements\n \u003e View official JSP announcements in the app\n\nUpdates\n- Improved Live Bus Tracking\n \u003e Fetch data from multiple sources to prevent outages if one source is unavailable\n- UI Updates\n \u003e Animations and icons update\n",
-    "file": "Bus_Now_1.4.apk",
     "timestamp": 1788797752970
   },
   {
     "title": "v1.3",
     "changelog": "Bugfix\n- Fixed some bus line missing from bus arrival list\n- Fixed bus line was not connected to route \n- Fixed bus arrival list displaying wrong data\n- Fixed line tracking is not canceled when stop is selected form a list\n\nNew\n- Added bus route schedule\n- Dynamic colors toggle\n- Added About page\n \u003e Release Notes\n \u003e Feedback button\n\nUI Update\n- Color update\n- Buttons update\n",
-    "file": "Bus_Now_1.3.apk",
     "timestamp": 1785350365010
   },
   {
     "title": "v1.2",
     "changelog": "Updates \u0026 Improvements\n- Show direction for the route\n- UI Updates\n- Live Bus Tracking Enhancements\n \u003e Displays bus details in the top card\n \u003e Animate top card",
-    "file": "Bus_Now_1.2.apk",
     "timestamp": 1780094962400
   },
   {
     "title": "v1.1",
     "changelog": "New\n- Theme customization (change theme and map icon colors)\n- Add favorite bus stops or lines\n- App language switcher\n\nUpdates \u0026 Improvements\n- Improved bus status handling\n- Better focus on selected stop on the map\n\nUI Updates\n- Improved focused stop icon\n- Arrival list now displays seconds\n- Auto-updating arrival list\n\nLive Bus Tracking Enhancements\n- Displays delay\n- Shows next stop",
-    "file": "Bus_Now_1.1.apk",
     "timestamp": 1777328611284
   },
   {
     "title": "v1.0",
     "changelog": "First release",
-    "file": "JSP_Now_1.0.apk",
     "timestamp": 1776945035203
   }
 ]
