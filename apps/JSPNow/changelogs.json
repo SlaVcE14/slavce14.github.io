@@ -1,5 +1,10 @@
 [
   {
+    "title": "v1.5",
+    "changelog": "New\n- Onboarding\n- Added shortcut for buying ticket via calling 185 or via SkopjeBus app\n- Added Bus Line Search \n- Automatic theme\n \u003e Switch between light and dark themes based on the time of day\n\nUpdates \u0026 Improvements\n- Updated search for lines and stops\n- UI updates\n- Optimizations\n",
+    "timestamp": 1792527074712
+  },
+  {
     "title": "v1.4.2",
     "changelog": "Major bugfixes",
     "timestamp": 1789498730556
